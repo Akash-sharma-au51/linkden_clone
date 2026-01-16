@@ -1,0 +1,39 @@
+{
+  "name": "linkden",
+  "version": "1.0.0",
+  "description": "this is a linkden clone",
+  "keywords": [
+    "linkden"
+  ],
+  "homepage": "https://github.com/Akash-sharma-au51/linkden_clone/tree/main#readme",
+  "bugs": {
+    "url": "https://github.com/Akash-sharma-au51/linkden_clone/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akash-sharma-au51/linkden_clone.git#main"
+  },
+  "license": "ISC",
+  "author": "theskysharma",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "ts-node-esm index.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.4",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.9",
+    "express": "^5.2.1"
+  }
+}
